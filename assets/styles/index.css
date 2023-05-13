@@ -1,30 +1,23 @@
 @font-face {
   font-family: "font1";
-  src: url(../fonts/NotoSerifDisplay-VariableFont_wdth\wght.ttf);
+  src: url(../fonts/NotoSerifDisplay-VariableFont_wdthwght.ttf);
 }
-
 body {
-  background: #f0bb59;
+  background: rgb(240, 187, 89);
   font-family: "font1", sans-serif;
 }
 
 nav {
-  background: #641523;
+  background: rgb(100, 21, 35);
 }
-
 nav ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-around;
+  align-items: center;
 }
-
 nav ul li {
   list-style: none;
+  color: rgb(242, 233, 233);
 }
 
 h1 {
@@ -32,34 +25,23 @@ h1 {
   font-size: 3rem;
   text-align: center;
 }
-
 h1:after {
   content: "*";
   position: absolute;
-  -webkit-transform: translateY(-6px);
-          transform: translateY(-6px);
-  color: #641523;
+  transform: translateY(-6px);
+  color: rgb(100, 21, 35);
 }
-
 h1:hover:after {
   font-size: 2em;
 }
 
 section {
   height: 600px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 section p {
   text-align: center;
   width: 50%;
-}
-/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */
